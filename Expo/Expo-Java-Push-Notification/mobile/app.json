@@ -1,0 +1,22 @@
+{
+  "expo": {
+    "name": "Push Notification",
+    "slug": "expo-java-push-notification",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "plugins": [
+      "expo-notifications"
+    ],
+    "android": {
+      "package": "com.exemplo.pushnotification",
+      "googleServicesFile": "./google-services.json"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "ca4d9a2e-c037-4a36-b23f-6eab6843d5b2"
+      }
+    },
+    "owner": "jujubspaes"
+  }
+}
